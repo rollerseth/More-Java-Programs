@@ -1,0 +1,41 @@
+import java.io.*;
+import java.awt.*;
+import java.awt.image.*;
+import javax.swing.*;
+import javax.imageio.*;
+
+public class Draw {
+    public Canvas extends JComponent {
+	public void paint(Graphics g) {
+	    g.drawRect(100, 100, 200, 200);
+	    g,setColor(Color.BLUE);
+	    g.fillArc(200, 200, 200, 200, 0, 360);
+	    // last two are in degrees 
+	}
+    }
+    
+    
+    class DrawFrame extends JFrame {
+	DrawFrame() {
+	    setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	    setPreferredSize(new Dimension(600, 600));
+	    Canvas canvas = new Canvas();
+	    add(canvas);
+	    JButton button = new JButton("Exit");
+	    button.addActionListener((e) -> {frame.setVisible(false); frame.dispose(); });
+	    add(button, BorderLayout.SOUTH);
+	    pack();
+
+	}
+
+    }
+
+    DrawFrame frame;
+
+    public Draw() {
+	frame = new DrawFrame();
+    }
+
+
+
+}

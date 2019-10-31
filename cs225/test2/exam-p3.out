@@ -1,0 +1,104 @@
+Username:  rollers
+Date:      Sat Dec 8 22:28:12 EST 2018
+ 
+**************************
+ Compilation succeeded!   
+**************************
+java TestDiffR /home/mathcs/courses/cs225/file1 /home/mathcs/courses/cs225/file1
+Test Passed
+java TestDiffR /home/mathcs/courses/cs225/file1 /home/mathcs/courses/cs225/file2
+Test Passed
+java TestDiffR /home/mathcs/courses/cs225/file1 /home/mathcs/courses/cs225/file3
+Test Passed
+java TestDiffR /home/mathcs/courses/cs225/file1 /home/mathcs/courses/cs225/file4
+Test Passed
+java TestDiffR /home/mathcs/courses/cs225/file1 /home/mathcs/courses/cs225/file5
+Test Passed
+java TestDiffR /home/mathcs/courses/cs225/file1 /home/mathcs/courses/cs225/file6
+Test Passed
+java TestDiffR /home/mathcs/courses/cs225/file1 /home/mathcs/courses/cs225/file7
+Test Passed
+java TestDiffR /home/mathcs/courses/cs225/file2 /home/mathcs/courses/cs225/file1
+Test Passed
+java TestDiffR /home/mathcs/courses/cs225/file2 /home/mathcs/courses/cs225/file2
+Test Passed
+java TestDiffR /home/mathcs/courses/cs225/file2 /home/mathcs/courses/cs225/file3
+Test Passed
+java TestDiffR /home/mathcs/courses/cs225/file2 /home/mathcs/courses/cs225/file4
+Test Passed
+java TestDiffR /home/mathcs/courses/cs225/file2 /home/mathcs/courses/cs225/file5
+Test Passed
+java TestDiffR /home/mathcs/courses/cs225/file2 /home/mathcs/courses/cs225/file6
+Test Passed
+java TestDiffR /home/mathcs/courses/cs225/file2 /home/mathcs/courses/cs225/file7
+Test Passed
+java TestDiffR /home/mathcs/courses/cs225/file3 /home/mathcs/courses/cs225/file1
+Test Passed
+java TestDiffR /home/mathcs/courses/cs225/file3 /home/mathcs/courses/cs225/file2
+Test Passed
+java TestDiffR /home/mathcs/courses/cs225/file3 /home/mathcs/courses/cs225/file3
+Test Passed
+java TestDiffR /home/mathcs/courses/cs225/file3 /home/mathcs/courses/cs225/file4
+Test Passed
+java TestDiffR /home/mathcs/courses/cs225/file3 /home/mathcs/courses/cs225/file5
+Test Passed
+java TestDiffR /home/mathcs/courses/cs225/file3 /home/mathcs/courses/cs225/file6
+Test Passed
+java TestDiffR /home/mathcs/courses/cs225/file3 /home/mathcs/courses/cs225/file7
+Test Passed
+java TestDiffR /home/mathcs/courses/cs225/file4 /home/mathcs/courses/cs225/file1
+Test Passed
+java TestDiffR /home/mathcs/courses/cs225/file4 /home/mathcs/courses/cs225/file2
+Test Passed
+java TestDiffR /home/mathcs/courses/cs225/file4 /home/mathcs/courses/cs225/file3
+Test Passed
+java TestDiffR /home/mathcs/courses/cs225/file4 /home/mathcs/courses/cs225/file4
+Test Passed
+java TestDiffR /home/mathcs/courses/cs225/file4 /home/mathcs/courses/cs225/file5
+Test Passed
+java TestDiffR /home/mathcs/courses/cs225/file4 /home/mathcs/courses/cs225/file6
+Test Passed
+java TestDiffR /home/mathcs/courses/cs225/file4 /home/mathcs/courses/cs225/file7
+Test Passed
+java TestDiffR /home/mathcs/courses/cs225/file5 /home/mathcs/courses/cs225/file1
+Test Passed
+java TestDiffR /home/mathcs/courses/cs225/file5 /home/mathcs/courses/cs225/file2
+Test Passed
+java TestDiffR /home/mathcs/courses/cs225/file5 /home/mathcs/courses/cs225/file3
+Test Passed
+java TestDiffR /home/mathcs/courses/cs225/file5 /home/mathcs/courses/cs225/file4
+Test Passed
+java TestDiffR /home/mathcs/courses/cs225/file5 /home/mathcs/courses/cs225/file5
+Test Passed
+java TestDiffR /home/mathcs/courses/cs225/file5 /home/mathcs/courses/cs225/file6
+Test Passed
+java TestDiffR /home/mathcs/courses/cs225/file5 /home/mathcs/courses/cs225/file7
+Test Passed
+java TestDiffR /home/mathcs/courses/cs225/file6 /home/mathcs/courses/cs225/file1
+Test Passed
+java TestDiffR /home/mathcs/courses/cs225/file6 /home/mathcs/courses/cs225/file2
+Test Passed
+java TestDiffR /home/mathcs/courses/cs225/file6 /home/mathcs/courses/cs225/file3
+Test Passed
+java TestDiffR /home/mathcs/courses/cs225/file6 /home/mathcs/courses/cs225/file4
+Test Passed
+java TestDiffR /home/mathcs/courses/cs225/file6 /home/mathcs/courses/cs225/file5
+Test Passed
+java TestDiffR /home/mathcs/courses/cs225/file6 /home/mathcs/courses/cs225/file6
+Test Passed
+java TestDiffR /home/mathcs/courses/cs225/file6 /home/mathcs/courses/cs225/file7
+Test Passed
+java TestDiffR /home/mathcs/courses/cs225/file7 /home/mathcs/courses/cs225/file1
+Test Passed
+java TestDiffR /home/mathcs/courses/cs225/file7 /home/mathcs/courses/cs225/file2
+Test Passed
+java TestDiffR /home/mathcs/courses/cs225/file7 /home/mathcs/courses/cs225/file3
+Test Passed
+java TestDiffR /home/mathcs/courses/cs225/file7 /home/mathcs/courses/cs225/file4
+Test Passed
+java TestDiffR /home/mathcs/courses/cs225/file7 /home/mathcs/courses/cs225/file5
+Test Passed
+java TestDiffR /home/mathcs/courses/cs225/file7 /home/mathcs/courses/cs225/file6
+Test Passed
+java TestDiffR /home/mathcs/courses/cs225/file7 /home/mathcs/courses/cs225/file7
+Test Passed

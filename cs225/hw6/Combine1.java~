@@ -1,0 +1,48 @@
+import java.io.*;
+import java.util.*;
+
+public class Combine {
+
+    public static void main(String arg[]) throws IOException {
+
+	ArrayList<FileReader> list = new ArrayList<>(arg.length);
+	ArrayList<Results> answers = new ArrayList<>(arg.length);
+	ArrayList<String> stringList = new ArrayList<>(arg.length);
+	ArrayList<BufferedReader> buffer = new ArrayList<>(arg.length);
+	
+	for (int i = 0; i < arg.length; i++) {
+	    FileReader adding = new FileReader(arg[i]);
+	    list.add(i, adding);
+	    BufferedReader buffing = new FileReader(adding);
+	    buffer.add(i, buffing);
+	    String text = "";
+	    stringList.add(i, text);
+	}
+
+	for (int i = 0; i < arg.length; i++) {
+	    
+	    while ((more = reader.readLine()) != null) {
+		
+		
+		String holder[] = text.split(" ");
+	    }
+	}
+    }
+}
+
+class Results {
+
+    String first;
+    String last;
+    int score;
+    
+    public Results(String first, String last, int score) {
+	first = this.first;
+	last = this.last;
+	score = this.score; 
+    }
+
+    public static int compareTo() {
+	return 0;
+    }
+}

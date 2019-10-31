@@ -1,0 +1,63 @@
+Username:  rollers
+Date:      Fri Nov 2 10:09:10 EDT 2018
+ 
+**************************
+ Compilation succeeded!   
+**************************
+******************************
+Running java Beverages milk 10
+******************************
+
+10 bottles of milk on the wall, 10 bottles of milk.
+Take one down, pass it around, 9 bottles of milk on the wall.
+
+9 bottles of milk on the wall, 9 bottles of milk.
+Take one down, pass it around, 8 bottles of milk on the wall.
+
+8 bottles of milk on the wall, 8 bottles of milk.
+Take one down, pass it around, 7 bottles of milk on the wall.
+
+7 bottles of milk on the wall, 7 bottles of milk.
+Take one down, pass it around, 6 bottles of milk on the wall.
+
+6 bottles of milk on the wall, 6 bottles of milk.
+Take one down, pass it around, 5 bottles of milk on the wall.
+
+5 bottles of milk on the wall, 5 bottles of milk.
+Take one down, pass it around, 4 bottles of milk on the wall.
+
+4 bottles of milk on the wall, 4 bottles of milk.
+Take one down, pass it around, 3 bottles of milk on the wall.
+
+3 bottles of milk on the wall, 3 bottles of milk.
+Take one down, pass it around, 2 bottles of milk on the wall.
+
+2 bottles of milk on the wall, 2 bottles of milk.
+Take one down, pass it around, 1 bottle of milk on the wall.
+
+1 bottle of milk on the wall,  1 bottle of milk.
+Take one down, pass it around, 0 bottles of milk on the wall.
+****************************
+Running java Beverages tea 5
+****************************
+
+5 bottles of tea on the wall, 5 bottles of tea.
+Take one down, pass it around, 4 bottles of tea on the wall.
+
+4 bottles of tea on the wall, 4 bottles of tea.
+Take one down, pass it around, 3 bottles of tea on the wall.
+
+3 bottles of tea on the wall, 3 bottles of tea.
+Take one down, pass it around, 2 bottles of tea on the wall.
+
+2 bottles of tea on the wall, 2 bottles of tea.
+Take one down, pass it around, 1 bottle of tea on the wall.
+
+1 bottle of tea on the wall,  1 bottle of tea.
+Take one down, pass it around, 0 bottles of tea on the wall.
+**********************
+Running java Beverages
+**********************
+Usage: Incorrect number of arguments.
+
+**********************

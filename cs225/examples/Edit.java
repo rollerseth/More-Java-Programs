@@ -1,0 +1,69 @@
+import java.io.*;
+import java.awt.*;
+import javax.swing.*;
+
+public class Edit {
+    class EditFrame extends JFrame {
+	JTextArea text;
+	JFileChooser chooser;
+	
+	EditFrame() {
+	    text = new JTextArea();
+	    add(text);
+	    JMenuBar bar = new JMenuBar();
+	    setJMenuBar(bar);
+	    JMenu fileMenu = new JMenu("File");
+	    bar.add(fileMenu);
+	    JMenuItem newItem = new JMenuItem("New");
+	    JMenuItem openItem = new JMenuItem("Open");
+	    JMenuItem closeItem = new JMenuItem("Close");
+	    JMenuItem saveItem = new JMenuItem("Save");
+            JMenuItem exitItem = new JMenuItem("Exit");
+	    fileMenu.add(newItem);
+	    fileMenu.add(openItem);
+            fileMenu.add(closeItem);
+            fileMenu.add(saveItem);
+            fileMenu.add(exitItem);
+	    saveItem.addActionListener((e) -> save());
+	    chooser = new JFileChooser();
+	    setPreferredSize(new Dimension(600, 600));
+	    pack();
+	}
+    
+
+	void save() {
+	    switch (chooser.showSaveDialog(this)) {
+	    case JFileChooser.CANCEL_OPTION:		
+	    case JFileChooser.ERROR_OPTION:
+		break;
+	    case JFileChooser.APPROVE_OPTION:
+		String name = chooser.getSelectedFile().getName();
+		String contents = text.getText();
+		try {
+		    FileWriter writer = new FileWriter(name);
+		    writer.write(contents);
+		    writer.close();
+		}
+
+		catch(IOException e) {
+		    System.err.println(e.getMessage());
+		}
+		break;
+
+	    }
+	    
+	}
+	
+    }
+    
+    EditFrame frame;
+    Edit() {
+	frame = new EditFrame();
+    }
+    
+	public static void main(String[] argv) {
+	    Edit edit = new Edit();
+	    SwingUtilities.invokeLater(() -> edit.frame.setVisible(true));
+	    
+	}
+}

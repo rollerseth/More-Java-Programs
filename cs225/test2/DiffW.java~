@@ -1,0 +1,18 @@
+public class DiffW {
+
+    static class Node {
+	String string;
+	Node next;
+    }
+
+    static void diff(Node m, Node n) {
+	
+
+
+
+    }
+
+
+
+
+}

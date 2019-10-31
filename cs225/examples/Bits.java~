@@ -1,0 +1,7 @@
+public class Bits {
+
+    int a = 8;
+
+    System.out.println((a & 1f) << 6);
+
+}
